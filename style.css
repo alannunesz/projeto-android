@@ -170,8 +170,11 @@ ul {
     list-style-type: '✔\00A0';
     columns: 2;
     border-radius: 10px;
-    text-align: left;
+    margin: 0%;
+    padding: 0%;
+    
 }
+
 
 aside > h1 {
     font-family: Arial, Helvetica, sans-serif;
@@ -188,11 +191,17 @@ aside > p {
     margin-top: 15px;
 }
 
+footer > p {
+    padding: 0px;
+    margin: 0px;
+}
+
 footer {
     background-color: #13678A;
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8em;
-    padding: 1px;
+    padding: 5px;
+    margin-top: 20px;
 }
